@@ -1,0 +1,22 @@
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 500px;
+  padding: 100px;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circleButton {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
