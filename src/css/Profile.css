@@ -3,14 +3,38 @@
   flex-direction: row;
   justify-content: space-between;
 
-  height: 500px;
-  padding: 100px;
+  height: 505px;
+  margin: 100px;
 }
+
+/* --------------------------------- */
 
 .profile-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  gap: 3rem;
+  flex: 2;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.socialContactContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.circleButtonContainer {
+  display: flex;
+  flex-direction: row;
 }
 
 .circleButton {
@@ -19,4 +43,54 @@
   border: none;
   border-radius: 50%;
   margin: 0 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.functionButton button {
+  height: 3.438rem;
+  width: 9.438rem;
+  border-radius: 10px;
+}
+
+.functionButton .request {
+  background-color: #ff2950;
+  color: #f9f9f9;
+  border: none;
+
+  margin-right: 2rem;
+}
+
+.functionButton .download {
+  border: 2px solid #ff9b70;
+  background-color: hsla(0, 0%, 100%, 0);
+  color: hsla(0, 0%, 13%, 0.5);
+}
+
+/* ------------------------ */
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+
+  position: relative;
+}
+
+.profile-right .decor-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.profile-right .decor-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
 }

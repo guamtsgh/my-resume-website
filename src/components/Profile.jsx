@@ -8,7 +8,7 @@ function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-left">
-        <div>
+        <div className="contentContainer">
           <p className="font24">Hi!</p>
           <p className="font40 semiBold">
             I’m Mohammad Reza.
@@ -16,30 +16,32 @@ function Profile() {
           </p>
         </div>
 
-        <div>
+        <div className="contentContainer">
           <p className="font18">
             Frontend developer based in tehran, Iran.
-            <br />I am coding with a clean and beautiful problem solving in
-            mind.
+            <br />I am coding with a clean and beautiful problem
+            <br />
+            solving in mind.
           </p>
-          <div className="social-contact">
-            <p className="font18">Follow me</p>
+
+          <div className="socialContactContainer">
+            <p className="font18 fontGray">Follow me</p>
             <div className="social-icons">
               <SocialButton data={socialIcon} />
             </div>
           </div>
         </div>
 
-        <div>
-          <button className="medium">Send Request</button>
-          <button className="medium">Download CV</button>
+        <div className="functionButton">
+          <button className="request medium font18">Send Request</button>
+          <button className="download medium font18">Download CV</button>
         </div>
       </div>
 
       <div className="profile-right">
         <img src={profileImage} />
-        <img src={profileImageDecor} />
-        <img src={profileImageDecor} />
+        <img src={profileImageDecor} className="decor-left" />
+        <img src={profileImageDecor} className="decor-right" />
       </div>
     </div>
   );
