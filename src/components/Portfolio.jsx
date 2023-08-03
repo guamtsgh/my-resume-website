@@ -1,31 +1,28 @@
-// function Portfolio() {
-//   const portfolios = [
-//     { src: "../images/portfolio/port1.png" },
-//     { src: "../images/portfolio/port2.png" },
-//     { src: "../images/portfolio/port3.png" },
-//     { src: "../images/portfolio/port4.png" },
-//     { src: "../images/portfolio/port5.png" },
-//     { src: "../images/portfolio/port6.png" },
-//   ];
+import portfolioDataList from "../data/portfolioDataList";
+import arrow from "../images/portfolio/arrow.png";
+import "../css/Portfolio.css";
 
-//   return (
-//     <section className="Portfolio">
-//       <div className="port-header">
-//         <h1>Portfolio</h1>
-//         <div>
-//           <p>See More</p>
-//           <img />
-//         </div>
-//       </div>
-//       <div className="port-list">
-//         {portfolios.map((item, index) => {
-//           <div className="each-port" key={index}>
-//             <img src={item.src} />
-//           </div>;
-//         })}
-//       </div>
-//     </section>
-//   );
-// }
+function Portfolio() {
+  return (
+    <section className="portContainer">
+      <div className="portHeader">
+        <h1 className="semiBold font48 fontBlack">Portfolio</h1>
+        <div className="arrow">
+          <p className="font20 fontGray">See More</p>
+          <img src={arrow} />
+        </div>
+      </div>
+      <div className="portList">
+        {portfolioDataList.map((item, index) => {
+          return (
+            <div className="each-port" key={index}>
+              <img src={item.img} />
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
 
-// export default Portfolio;
+export default Portfolio;

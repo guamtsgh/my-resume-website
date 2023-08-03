@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/header";
-// import Portfolio from "../components/portfolio";
+import Portfolio from "./components/Portfolio";
 import Profile from "./components/Profile";
 import Skill from "./components/skill";
 // import Footer from "../components/footer";
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Profile />
       <Skill />
-      {/* <Portfolio />
-      <Footer /> */}
+      <Portfolio />
+      {/* <Footer /> */}
     </div>
   );
 }
