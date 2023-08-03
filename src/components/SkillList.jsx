@@ -1,13 +1,15 @@
 const SkillList = ({ data }) => {
   return (
-    <div className="skillContainer">
+    <div className="skillList">
       {data.map((item, index) => {
         return (
-          <div className="skill" key={index}>
-            <img src={item.image} />
-            <div>
-              <p>{item.skill}</p>
-              <p>{item.description}</p>
+          <div className="eachSkill" key={index}>
+            <button className="imgButton">
+              <img src={item.image} />
+            </button>
+            <div className="skillDetail">
+              <p className="medium font24 fontBlack">{item.skill}</p>
+              <p className="font18 fontGray center">{item.description}</p>
             </div>
           </div>
         );

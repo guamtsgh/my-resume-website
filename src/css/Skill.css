@@ -1,0 +1,50 @@
+.skillContainer {
+  height: 449px;
+  margin: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topic {
+  display: block;
+  text-align: center;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.eachSkill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 240px;
+  height: 287px;
+}
+
+.skillDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.imgButton {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: hsla(0, 0%, 13%, 0.1);
+}

@@ -1,11 +1,11 @@
 import SkillList from "./SkillList.jsx";
 import skillListData from "../data/skillListData.jsx";
-console.log(skillListData);
+import "../css/Skill.css";
 
 function Skill() {
   return (
-    <div className="skill-container">
-      <h1>Why Hire Me?</h1>
+    <div className="skillContainer">
+      <p className="topic semiBold font48 fontBlack">Why Hire Me?</p>
       <SkillList data={skillListData} />
     </div>
   );
