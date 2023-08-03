@@ -11,14 +11,14 @@ function Profile() {
         <div className="contentContainer">
           <p className="font24 fontBlack">Hi!</p>
           <p className="font40 semiBold fontBlack">
-            I’m Mohammad Reza.
+            I’m Maythee Srianut.
             <br />a Frontend developer.
           </p>
         </div>
 
         <div className="contentContainer">
           <p className="font18 fontBlack">
-            Frontend developer based in tehran, Iran.
+            Frontend developer based in Samutprakarn, Thailand.
             <br />I am coding with a clean and beautiful problem
             <br />
             solving in mind.

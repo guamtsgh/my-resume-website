@@ -12,14 +12,16 @@ function Portfolio() {
           <img src={arrow} />
         </div>
       </div>
-      <div className="portList">
-        {portfolioDataList.map((item, index) => {
-          return (
-            <div className="each-port" key={index}>
-              <img src={item.img} />
-            </div>
-          );
-        })}
+      <div className="portWidth">
+        <div className="portList">
+          {portfolioDataList.map((item, index) => {
+            return (
+              <div className="eachPort" key={index}>
+                <img src={item.img} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

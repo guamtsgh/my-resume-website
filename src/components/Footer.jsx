@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footerContainer">
       <div className="email">
         <img src={letter} />
-        <p className="fontGray font18">mmr315@gmail.com</p>
+        <p className="fontGray font18">maythee.srianut@gmail.com</p>
       </div>
       <div className="copyright medium">
         <p>© Copyright 2021 | mmrz315</p>

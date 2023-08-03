@@ -8,25 +8,25 @@ const skillListData = [
     skill: "Communicative",
     image: communicative,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "I can deal with conflict management with empathy and also an active listening.",
   },
   {
     skill: "Professional",
     image: professional,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "I have an adaptability and critical thinking skill which make me can deal with complex problems.",
   },
   {
     skill: "Collaborative",
     image: collaborative,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "I'm a team player with positive energy and also a supportive team member.",
   },
   {
     skill: "Client's Favorite",
     image: star,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "I have a project management skill which can satisfy with the client requirement",
   },
 ];
 

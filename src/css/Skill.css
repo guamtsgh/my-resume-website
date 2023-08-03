@@ -1,6 +1,5 @@
 .skillContainer {
-  height: 449px;
-  margin: 100px;
+  margin: 0 100px;
 
   display: flex;
   flex-direction: column;
@@ -9,8 +8,10 @@
 }
 
 .topic {
-  display: block;
+  display: flex;
   text-align: center;
+
+  margin: 100px;
 }
 
 .skillList {
@@ -24,11 +25,13 @@
 .eachSkill {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 
+  gap: 3rem;
+
   width: 240px;
-  height: 287px;
+  /* height: 287px; */
 }
 
 .skillDetail {
@@ -45,6 +48,10 @@
   height: 98px;
   border-radius: 50%;
   border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-color: hsla(0, 0%, 13%, 0.1);
 }
