@@ -1,0 +1,35 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+
+  height: 170px;
+  background-color: #f1f1f1;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.copyright {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}

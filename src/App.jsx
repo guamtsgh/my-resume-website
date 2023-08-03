@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Portfolio from "./components/Portfolio";
 import Profile from "./components/Profile";
 import Skill from "./components/skill";
-// import Footer from "../components/footer";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Profile />
       <Skill />
       <Portfolio />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
