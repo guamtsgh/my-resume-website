@@ -1,10 +1,14 @@
-// function Skill() {
-//   return (
-//     <div className="skill-container">
-//       <h1>Why Hire Me?</h1>
-//       <div className="skill-list">{/* array.map */}</div>
-//     </div>
-//   );
-// }
+import SkillList from "./SkillList.jsx";
+import skillListData from "../data/skillListData.jsx";
+console.log(skillListData);
 
-// export default Skill;
+function Skill() {
+  return (
+    <div className="skill-container">
+      <h1>Why Hire Me?</h1>
+      <SkillList data={skillListData} />
+    </div>
+  );
+}
+
+export default Skill;

@@ -9,15 +9,15 @@ function Profile() {
     <div className="profile-container">
       <div className="profile-left">
         <div className="contentContainer">
-          <p className="font24">Hi!</p>
-          <p className="font40 semiBold">
+          <p className="font24 fontBlack">Hi!</p>
+          <p className="font40 semiBold fontBlack">
             I’m Mohammad Reza.
             <br />a Frontend developer.
           </p>
         </div>
 
         <div className="contentContainer">
-          <p className="font18">
+          <p className="font18 fontBlack">
             Frontend developer based in tehran, Iran.
             <br />I am coding with a clean and beautiful problem
             <br />

@@ -37,3 +37,7 @@ html {
 .fontGray {
   color: hsla(0, 0%, 13%, 0.5);
 }
+
+.fontBlack {
+  color: hsl(0, 0%, 13%);
+}
